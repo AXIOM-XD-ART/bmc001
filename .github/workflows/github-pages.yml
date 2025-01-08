@@ -22,7 +22,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs  # Set this to '.' if your HTML is in the root directory
+        publish_dir: .  # Set this to '.' if your HTML is in the root directory
 
     - name: Deploy to GitHub Pages
       run: |
